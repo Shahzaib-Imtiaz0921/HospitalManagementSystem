@@ -1,15 +1,18 @@
 #pragma once
-#include "../domain/hospital.h"
-#include "../domain/patient.h"
-#include "../domain/consultationsession.h"
-#include "../domain/proximityengine.h"
-#include "../database/databasemanager.h"
 #include <vector>
+#include <string>
 #include <QString>
 #include <QVector>
 #include <QPair>
 #include <QList>
 #include <QMap>
+#include "../domain/person.h"
+#include "../domain/doctor.h"
+#include "../domain/patient.h"
+#include "../domain/hospital.h"
+#include "../domain/consultationsession.h"
+#include "../domain/proximityengine.h"
+#include "../database/databasemanager.h"
 
 class SystemManager {
 public:

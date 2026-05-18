@@ -3,8 +3,12 @@
 #include <QList>
 #include <QMap>
 #include <QSqlDatabase>
+#include <vector>
+#include "../domain/doctor.h"
 #include "../domain/patient.h"
+#include "../domain/hospital.h"
 #include "../domain/consultationsession.h"
+#include "../domain/proximityengine.h"
 
 class DatabaseManager {
 public:
